@@ -42,8 +42,6 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 
 
-// Add your functions below:
-
 function validateCred(numArr) {
   
 let total = 0;
@@ -74,7 +72,7 @@ return total % 10 === 0;
 }
 
 
-// Test functions
+// Testing functions
 
 console.log(validateCred(valid1)); // Should print true
 
@@ -100,14 +98,14 @@ if (!validateCred(currCred))
 }
 
 
-// Test function
+// Testing function
 
 console.log(findInvalidCards([valid1, valid2, valid3, valid4, valid5]));   // Shouldn't print anything
 
 console.log(findInvalidCards([invalid1, invalid2, invalid3, invalid4, invalid5]));  // Should print all of the numbers
 
 
-console.log(findInvalidCards(batch)); // Test what the mystery numbers are
+console.log(findInvalidCards(batch)); // Testing what the mystery numbers are
 
 
 function idInvalidCardCompanies(invalidBatch) {
